@@ -1,0 +1,12 @@
+name = "albergues-nayarit-privado"
+main = "worker/worker.js"
+compatibility_date = "2026-10-10"
+
+[vars]
+GITHUB_REPO = "oskxrt/albergues_nay"
+GITHUB_BRANCH = "main"
+# Configure in Cloudflare Worker settings (not here):
+# ACCESS_TEAM_DOMAIN = "https://TU-EQUIPO.cloudflareaccess.com"
+# ACCESS_AUD = "AUDIENCE_TAG_DEL_APLICATIVO"
+# ADMIN_EMAIL = "TU-CORREO"
+# Secret GITHUB_TOKEN (fine-grained token: Contents read/write, solo este repo)
